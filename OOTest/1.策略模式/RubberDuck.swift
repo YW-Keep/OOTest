@@ -9,5 +9,8 @@
 import UIKit
 
 class RubberDuck: Duck {
-
+    override init() {
+        super.init()
+        self.flyBehavior = NoFly()
+    }
 }

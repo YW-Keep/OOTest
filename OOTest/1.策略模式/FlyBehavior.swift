@@ -9,5 +9,7 @@
 import UIKit
 
 class FlyBehavior: NSObject {
-
+    func fly() {
+        NSLog("nomal fly")
+    }
 }

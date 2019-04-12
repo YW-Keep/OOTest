@@ -8,6 +8,11 @@
 
 import UIKit
 
-class TwoObserver: NSObject {
-
+class TwoObserver: NSObject,UpDataProtocol {
+    var theme: Theme? = nil;
+    
+    func updata(data: String) {
+        let newData = theme!.getData();
+        NSLog("two observer %@", newData)
+    }
 }

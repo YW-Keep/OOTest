@@ -9,5 +9,7 @@
 import UIKit
 
 class AirFly: FlyBehavior {
-
+    override func fly() {
+        NSLog("air fly")
+    }
 }

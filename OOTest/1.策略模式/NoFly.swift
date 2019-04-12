@@ -9,5 +9,7 @@
 import UIKit
 
 class NoFly: FlyBehavior {
-
+    override func fly() {
+        NSLog("can not fly")
+    }
 }
