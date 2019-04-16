@@ -24,6 +24,7 @@
 		243929292265A5A500416355 /* BJMaterialFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243929282265A5A500416355 /* BJMaterialFactory.swift */; };
 		2439292B2265A61800416355 /* HZPizzaStroe2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439292A2265A61800416355 /* HZPizzaStroe2.swift */; };
 		2439292D2265A68300416355 /* HZPizzaStore3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439292C2265A68300416355 /* HZPizzaStore3.swift */; };
+		243929312265ADC000416355 /* OnlyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243929302265ADC000416355 /* OnlyManager.swift */; };
 		245CEDF1225DDCFB000269AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CEDF0225DDCFB000269AC /* AppDelegate.swift */; };
 		245CEDF6225DDCFB000269AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245CEDF4225DDCFB000269AC /* Main.storyboard */; };
 		245CEDF8225DDCFD000269AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245CEDF7225DDCFD000269AC /* Assets.xcassets */; };
@@ -82,6 +83,7 @@
 		243929282265A5A500416355 /* BJMaterialFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BJMaterialFactory.swift; sourceTree = "<group>"; };
 		2439292A2265A61800416355 /* HZPizzaStroe2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZPizzaStroe2.swift; sourceTree = "<group>"; };
 		2439292C2265A68300416355 /* HZPizzaStore3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZPizzaStore3.swift; sourceTree = "<group>"; };
+		243929302265ADC000416355 /* OnlyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyManager.swift; sourceTree = "<group>"; };
 		245CEDED225DDCFB000269AC /* OOTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OOTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		245CEDF0225DDCFB000269AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		245CEDF5225DDCFB000269AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -173,6 +175,14 @@
 			path = "抽象工厂模式";
 			sourceTree = "<group>";
 		};
+		2439292F2265AD8C00416355 /* 5.单件模式（单例） */ = {
+			isa = PBXGroup;
+			children = (
+				243929302265ADC000416355 /* OnlyManager.swift */,
+			);
+			path = "5.单件模式（单例）";
+			sourceTree = "<group>";
+		};
 		245CEDE4225DDCFB000269AC = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +212,7 @@
 				2421B06F225F1EBC0070C9D0 /* 2.观察者模式 */,
 				24F084F922607A6900F9F0BD /* 3.装饰者模式 */,
 				247B3D5D2264AE35007E82FB /* 4.工厂模式 */,
+				2439292F2265AD8C00416355 /* 5.单件模式（单例） */,
 				245CEDF4225DDCFB000269AC /* Main.storyboard */,
 				245CEDF7225DDCFD000269AC /* Assets.xcassets */,
 				245CEDF9225DDCFD000269AC /* LaunchScreen.storyboard */,
@@ -420,6 +431,7 @@
 				247B3D6A2264B1AF007E82FB /* PizzaFactory.swift in Sources */,
 				2421B073225F2C740070C9D0 /* OneObserver.swift in Sources */,
 				245CEDF1225DDCFB000269AC /* AppDelegate.swift in Sources */,
+				243929312265ADC000416355 /* OnlyManager.swift in Sources */,
 				2439291222657DB700416355 /* HZBeefPizza.swift in Sources */,
 				247B3D5F2264AE72007E82FB /* Pizza.swift in Sources */,
 				245CEE20225DDD72000269AC /* Duck.swift in Sources */,
