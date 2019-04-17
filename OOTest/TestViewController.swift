@@ -59,7 +59,18 @@ class TestViewController: UIViewController {
         _ = store4.createPizza2(type: "");
         let store5 = HZPizzaStore3()
         _ = store5.createPizza2(type: "");
-        // Do any additional setup after loading the view.
+        
+        NSLog("命令模式--------")
+        let remoteCol = RemoteControl()
+        let mainLight = MainLight()
+        remoteCol.setCommands(0, LightOnCommand(mainLight), LightOffCommand(mainLight))
+        let roomLight = RoomLight()
+        remoteCol.setCommands(1, LightOnCommand(roomLight), LightOffCommand(roomLight))
+        
+        remoteCol.onButtonWasPush(3);
+        remoteCol.onButtonWasPush(0);
+        remoteCol.offButtonWasPush(1);
+        
     }
     
 

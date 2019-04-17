@@ -42,6 +42,13 @@
 		247B3D652264B047007E82FB /* PorkPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D642264B047007E82FB /* PorkPizza.swift */; };
 		247B3D682264B146007E82FB /* PizzaStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D672264B146007E82FB /* PizzaStore2.swift */; };
 		247B3D6A2264B1AF007E82FB /* PizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D692264B1AF007E82FB /* PizzaFactory.swift */; };
+		24D5542D2267180700DF2B48 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5542C2267180700DF2B48 /* Command.swift */; };
+		24D5542F226719AD00DF2B48 /* RemoteControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5542E226719AD00DF2B48 /* RemoteControl.swift */; };
+		24D5543122671BF200DF2B48 /* LightOnCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5543022671BF200DF2B48 /* LightOnCommand.swift */; };
+		24D5543322671C0C00DF2B48 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D5543222671C0C00DF2B48 /* Light.swift */; };
+		24D554352267214300DF2B48 /* LightOffCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D554342267214300DF2B48 /* LightOffCommand.swift */; };
+		24D55437226721CA00DF2B48 /* MainLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D55436226721C900DF2B48 /* MainLight.swift */; };
+		24D554392267221700DF2B48 /* RoomLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D554382267221700DF2B48 /* RoomLight.swift */; };
 		24F084FB22607A9E00F9F0BD /* Beverages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F084FA22607A9E00F9F0BD /* Beverages.swift */; };
 		24F084FD22607B9A00F9F0BD /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F084FC22607B9A00F9F0BD /* Coffee.swift */; };
 		24F084FF22607BDF00F9F0BD /* RedBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F084FE22607BDF00F9F0BD /* RedBean.swift */; };
@@ -107,6 +114,13 @@
 		247B3D642264B047007E82FB /* PorkPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorkPizza.swift; sourceTree = "<group>"; };
 		247B3D672264B146007E82FB /* PizzaStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore2.swift; sourceTree = "<group>"; };
 		247B3D692264B1AF007E82FB /* PizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaFactory.swift; sourceTree = "<group>"; };
+		24D5542C2267180700DF2B48 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		24D5542E226719AD00DF2B48 /* RemoteControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteControl.swift; sourceTree = "<group>"; };
+		24D5543022671BF200DF2B48 /* LightOnCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOnCommand.swift; sourceTree = "<group>"; };
+		24D5543222671C0C00DF2B48 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		24D554342267214300DF2B48 /* LightOffCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightOffCommand.swift; sourceTree = "<group>"; };
+		24D55436226721C900DF2B48 /* MainLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLight.swift; sourceTree = "<group>"; };
+		24D554382267221700DF2B48 /* RoomLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomLight.swift; sourceTree = "<group>"; };
 		24F084FA22607A9E00F9F0BD /* Beverages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverages.swift; sourceTree = "<group>"; };
 		24F084FC22607B9A00F9F0BD /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		24F084FE22607BDF00F9F0BD /* RedBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBean.swift; sourceTree = "<group>"; };
@@ -213,6 +227,7 @@
 				24F084F922607A6900F9F0BD /* 3.装饰者模式 */,
 				247B3D5D2264AE35007E82FB /* 4.工厂模式 */,
 				2439292F2265AD8C00416355 /* 5.单件模式（单例） */,
+				24D5542B2267179A00DF2B48 /* 6.命令模式 */,
 				245CEDF4225DDCFB000269AC /* Main.storyboard */,
 				245CEDF7225DDCFD000269AC /* Assets.xcassets */,
 				245CEDF9225DDCFD000269AC /* LaunchScreen.storyboard */,
@@ -272,6 +287,20 @@
 				247B3D692264B1AF007E82FB /* PizzaFactory.swift */,
 			);
 			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		24D5542B2267179A00DF2B48 /* 6.命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24D5542C2267180700DF2B48 /* Command.swift */,
+				24D5542E226719AD00DF2B48 /* RemoteControl.swift */,
+				24D5543222671C0C00DF2B48 /* Light.swift */,
+				24D55436226721C900DF2B48 /* MainLight.swift */,
+				24D554382267221700DF2B48 /* RoomLight.swift */,
+				24D5543022671BF200DF2B48 /* LightOnCommand.swift */,
+				24D554342267214300DF2B48 /* LightOffCommand.swift */,
+			);
+			path = "6.命令模式";
 			sourceTree = "<group>";
 		};
 		24F084F922607A6900F9F0BD /* 3.装饰者模式 */ = {
@@ -425,6 +454,7 @@
 				24F084FF22607BDF00F9F0BD /* RedBean.swift in Sources */,
 				24F084FB22607A9E00F9F0BD /* Beverages.swift in Sources */,
 				2439291A22657E9B00416355 /* HZPizzaStore.swift in Sources */,
+				24D554352267214300DF2B48 /* LightOffCommand.swift in Sources */,
 				2439291422657DCD00416355 /* HZPorkPizza.swift in Sources */,
 				247B3D612264AFC1007E82FB /* PizzaStore.swift in Sources */,
 				2439291622657DFA00416355 /* BJBeefPizza.swift in Sources */,
@@ -434,9 +464,11 @@
 				243929312265ADC000416355 /* OnlyManager.swift in Sources */,
 				2439291222657DB700416355 /* HZBeefPizza.swift in Sources */,
 				247B3D5F2264AE72007E82FB /* Pizza.swift in Sources */,
+				24D5542D2267180700DF2B48 /* Command.swift in Sources */,
 				245CEE20225DDD72000269AC /* Duck.swift in Sources */,
 				2439291E2265830300416355 /* TestViewController.swift in Sources */,
 				247B3D682264B146007E82FB /* PizzaStore2.swift in Sources */,
+				24D554392267221700DF2B48 /* RoomLight.swift in Sources */,
 				243929292265A5A500416355 /* BJMaterialFactory.swift in Sources */,
 				245CEE5E225DE16F000269AC /* AirFly.swift in Sources */,
 				247B3D652264B047007E82FB /* PorkPizza.swift in Sources */,
@@ -450,6 +482,10 @@
 				2439292B2265A61800416355 /* HZPizzaStroe2.swift in Sources */,
 				243929232265A3F300416355 /* MaterialFactory.swift in Sources */,
 				24F084FD22607B9A00F9F0BD /* Coffee.swift in Sources */,
+				24D5543122671BF200DF2B48 /* LightOnCommand.swift in Sources */,
+				24D5543322671C0C00DF2B48 /* Light.swift in Sources */,
+				24D5542F226719AD00DF2B48 /* RemoteControl.swift in Sources */,
+				24D55437226721CA00DF2B48 /* MainLight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
