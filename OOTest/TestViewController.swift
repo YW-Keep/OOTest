@@ -71,6 +71,13 @@ class TestViewController: UIViewController {
         remoteCol.onButtonWasPush(0);
         remoteCol.offButtonWasPush(1);
         
+        NSLog("适配器模式与外观模式--------")
+        let turkey = TurkeyAdapter(Turkey())
+        turkey.fly()
+        turkey.quack()
+        let homeTV = HomeMovieCol(light: Light(), tv: HomeTV(), milk: MilkAdd())
+        homeTV.homeTVon()
+        homeTV.homeTVoff()
     }
     
 

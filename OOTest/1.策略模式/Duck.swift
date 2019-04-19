@@ -39,6 +39,10 @@ class Duck: NSObject {
     func fly(){
         self.flyBehavior.fly()
     }
+    func quack() {
+        NSLog("嘎嘎嘎")
+    }
+    
     func setFlyBehavier(newBehavior: FlyBehavior ){
         self.flyBehavior = newBehavior
     }
