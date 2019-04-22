@@ -36,6 +36,9 @@
 		245CEE5E225DE16F000269AC /* AirFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CEE5D225DE16F000269AC /* AirFly.swift */; };
 		245CEE60225DE19E000269AC /* NoFly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CEE5F225DE19E000269AC /* NoFly.swift */; };
 		245CEE62225DE2A4000269AC /* RubberDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 245CEE61225DE2A4000269AC /* RubberDuck.swift */; };
+		24642E82226DBED40067D29E /* CaffeineBeverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24642E81226DBED40067D29E /* CaffeineBeverage.swift */; };
+		24642E84226DD9CF0067D29E /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24642E83226DD9CF0067D29E /* Tea.swift */; };
+		24642E86226DDA3E0067D29E /* Caffe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24642E85226DDA3E0067D29E /* Caffe.swift */; };
 		247B3D5F2264AE72007E82FB /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D5E2264AE72007E82FB /* Pizza.swift */; };
 		247B3D612264AFC1007E82FB /* PizzaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D602264AFC1007E82FB /* PizzaStore.swift */; };
 		247B3D632264B02A007E82FB /* BeefPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D622264B02A007E82FB /* BeefPizza.swift */; };
@@ -113,6 +116,9 @@
 		245CEE5D225DE16F000269AC /* AirFly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFly.swift; sourceTree = "<group>"; };
 		245CEE5F225DE19E000269AC /* NoFly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoFly.swift; sourceTree = "<group>"; };
 		245CEE61225DE2A4000269AC /* RubberDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RubberDuck.swift; sourceTree = "<group>"; };
+		24642E81226DBED40067D29E /* CaffeineBeverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineBeverage.swift; sourceTree = "<group>"; };
+		24642E83226DD9CF0067D29E /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
+		24642E85226DDA3E0067D29E /* Caffe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Caffe.swift; sourceTree = "<group>"; };
 		247B3D5E2264AE72007E82FB /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
 		247B3D602264AFC1007E82FB /* PizzaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore.swift; sourceTree = "<group>"; };
 		247B3D622264B02A007E82FB /* BeefPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeefPizza.swift; sourceTree = "<group>"; };
@@ -239,6 +245,7 @@
 				2439292F2265AD8C00416355 /* 5.单件模式（单例） */,
 				24D5542B2267179A00DF2B48 /* 6.命令模式 */,
 				24BFCBB7226964F200A9336B /* 7.适配器模式与外观模式 */,
+				24642E80226DBE140067D29E /* 8.模板方法模式 */,
 				245CEDF4225DDCFB000269AC /* Main.storyboard */,
 				245CEDF7225DDCFD000269AC /* Assets.xcassets */,
 				245CEDF9225DDCFD000269AC /* LaunchScreen.storyboard */,
@@ -275,6 +282,16 @@
 				245CEE5F225DE19E000269AC /* NoFly.swift */,
 			);
 			path = "1.策略模式";
+			sourceTree = "<group>";
+		};
+		24642E80226DBE140067D29E /* 8.模板方法模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24642E81226DBED40067D29E /* CaffeineBeverage.swift */,
+				24642E83226DD9CF0067D29E /* Tea.swift */,
+				24642E85226DDA3E0067D29E /* Caffe.swift */,
+			);
+			path = "8.模板方法模式";
 			sourceTree = "<group>";
 		};
 		247B3D5D2264AE35007E82FB /* 4.工厂模式 */ = {
@@ -472,6 +489,7 @@
 				245CEE60225DE19E000269AC /* NoFly.swift in Sources */,
 				2439291C22657EE400416355 /* BJPizzaStore.swift in Sources */,
 				243929212265A34400416355 /* Pizza2.swift in Sources */,
+				24642E86226DDA3E0067D29E /* Caffe.swift in Sources */,
 				24BFCBC122696F7400A9336B /* MilkAdd.swift in Sources */,
 				2421B071225F1F090070C9D0 /* Theme.swift in Sources */,
 				243929272265A57B00416355 /* HZMaterialFactory.swift in Sources */,
@@ -484,6 +502,7 @@
 				247B3D612264AFC1007E82FB /* PizzaStore.swift in Sources */,
 				2439291622657DFA00416355 /* BJBeefPizza.swift in Sources */,
 				247B3D6A2264B1AF007E82FB /* PizzaFactory.swift in Sources */,
+				24642E82226DBED40067D29E /* CaffeineBeverage.swift in Sources */,
 				2421B073225F2C740070C9D0 /* OneObserver.swift in Sources */,
 				245CEDF1225DDCFB000269AC /* AppDelegate.swift in Sources */,
 				243929312265ADC000416355 /* OnlyManager.swift in Sources */,
@@ -497,6 +516,7 @@
 				24D554392267221700DF2B48 /* RoomLight.swift in Sources */,
 				243929292265A5A500416355 /* BJMaterialFactory.swift in Sources */,
 				24BFCBBB22696D9300A9336B /* TurkeyAdapter.swift in Sources */,
+				24642E84226DD9CF0067D29E /* Tea.swift in Sources */,
 				245CEE5E225DE16F000269AC /* AirFly.swift in Sources */,
 				247B3D652264B047007E82FB /* PorkPizza.swift in Sources */,
 				24F0850122607BF600F9F0BD /* Milk.swift in Sources */,

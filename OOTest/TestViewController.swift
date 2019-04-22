@@ -78,6 +78,14 @@ class TestViewController: UIViewController {
         let homeTV = HomeMovieCol(light: Light(), tv: HomeTV(), milk: MilkAdd())
         homeTV.homeTVon()
         homeTV.homeTVoff()
+        
+        NSLog("模板方法模式--------")
+        let tea = Tea()
+        tea.prepareRecipe()
+        let caffe = Caffe()
+        caffe.prepareRecipe()
+        caffe.isNeedMilk = false
+        caffe.prepareRecipe()
     }
     
 
