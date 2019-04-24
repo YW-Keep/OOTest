@@ -86,6 +86,18 @@ class TestViewController: UIViewController {
         caffe.prepareRecipe()
         caffe.isNeedMilk = false
         caffe.prepareRecipe()
+        
+        NSLog("迭代器与组合模式----------")
+        let menu1 = AMenu();
+        menu1.addMenu(MenuItem("小鸡炖蘑菇","20"))
+        menu1.addMenu(MenuItem("红烧肉","30"))
+        menu1.addMenu(MenuItem("酱鸭","25"))
+        let menu2 = AMenu();
+        menu2.addMenu(MenuItem("青菜蘑菇","8"))
+        menu2.addMenu(MenuItem("番茄炒蛋","15"))
+        menu2.addMenu(MenuItem("地三鲜","12"))
+        let waiter = Waiter([menu1,menu2])
+        waiter.printMenus()
     }
     
 

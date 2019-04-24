@@ -45,6 +45,12 @@
 		247B3D652264B047007E82FB /* PorkPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D642264B047007E82FB /* PorkPizza.swift */; };
 		247B3D682264B146007E82FB /* PizzaStore2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D672264B146007E82FB /* PizzaStore2.swift */; };
 		247B3D6A2264B1AF007E82FB /* PizzaFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247B3D692264B1AF007E82FB /* PizzaFactory.swift */; };
+		24A6392122704112000F4F77 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A6392022704112000F4F77 /* Iterator.swift */; };
+		24A63923227041C5000F4F77 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A63922227041C5000F4F77 /* MenuItem.swift */; };
+		24A63925227045A1000F4F77 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A63924227045A1000F4F77 /* Menu.swift */; };
+		24A639272270474C000F4F77 /* AMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A639262270474C000F4F77 /* AMenu.swift */; };
+		24A63929227047DE000F4F77 /* AIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A63928227047DE000F4F77 /* AIterator.swift */; };
+		24A6392B227049CE000F4F77 /* Waiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A6392A227049CE000F4F77 /* Waiter.swift */; };
 		24BFCBB9226965D600A9336B /* Turkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCBB8226965D600A9336B /* Turkey.swift */; };
 		24BFCBBB22696D9300A9336B /* TurkeyAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCBBA22696D9300A9336B /* TurkeyAdapter.swift */; };
 		24BFCBBD22696E9C00A9336B /* HomeMovieCol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BFCBBC22696E9C00A9336B /* HomeMovieCol.swift */; };
@@ -125,6 +131,12 @@
 		247B3D642264B047007E82FB /* PorkPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorkPizza.swift; sourceTree = "<group>"; };
 		247B3D672264B146007E82FB /* PizzaStore2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore2.swift; sourceTree = "<group>"; };
 		247B3D692264B1AF007E82FB /* PizzaFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaFactory.swift; sourceTree = "<group>"; };
+		24A6392022704112000F4F77 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		24A63922227041C5000F4F77 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		24A63924227045A1000F4F77 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		24A639262270474C000F4F77 /* AMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMenu.swift; sourceTree = "<group>"; };
+		24A63928227047DE000F4F77 /* AIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIterator.swift; sourceTree = "<group>"; };
+		24A6392A227049CE000F4F77 /* Waiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiter.swift; sourceTree = "<group>"; };
 		24BFCBB8226965D600A9336B /* Turkey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turkey.swift; sourceTree = "<group>"; };
 		24BFCBBA22696D9300A9336B /* TurkeyAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurkeyAdapter.swift; sourceTree = "<group>"; };
 		24BFCBBC22696E9C00A9336B /* HomeMovieCol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMovieCol.swift; sourceTree = "<group>"; };
@@ -246,6 +258,7 @@
 				24D5542B2267179A00DF2B48 /* 6.命令模式 */,
 				24BFCBB7226964F200A9336B /* 7.适配器模式与外观模式 */,
 				24642E80226DBE140067D29E /* 8.模板方法模式 */,
+				24A6391E22703FC5000F4F77 /* 9.迭代器与组合模式 */,
 				245CEDF4225DDCFB000269AC /* Main.storyboard */,
 				245CEDF7225DDCFD000269AC /* Assets.xcassets */,
 				245CEDF9225DDCFD000269AC /* LaunchScreen.storyboard */,
@@ -315,6 +328,19 @@
 				247B3D692264B1AF007E82FB /* PizzaFactory.swift */,
 			);
 			path = "简单工厂";
+			sourceTree = "<group>";
+		};
+		24A6391E22703FC5000F4F77 /* 9.迭代器与组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				24A6392022704112000F4F77 /* Iterator.swift */,
+				24A63922227041C5000F4F77 /* MenuItem.swift */,
+				24A63924227045A1000F4F77 /* Menu.swift */,
+				24A639262270474C000F4F77 /* AMenu.swift */,
+				24A63928227047DE000F4F77 /* AIterator.swift */,
+				24A6392A227049CE000F4F77 /* Waiter.swift */,
+			);
+			path = "9.迭代器与组合模式";
 			sourceTree = "<group>";
 		};
 		24BFCBB7226964F200A9336B /* 7.适配器模式与外观模式 */ = {
@@ -507,14 +533,19 @@
 				245CEDF1225DDCFB000269AC /* AppDelegate.swift in Sources */,
 				243929312265ADC000416355 /* OnlyManager.swift in Sources */,
 				2439291222657DB700416355 /* HZBeefPizza.swift in Sources */,
+				24A63925227045A1000F4F77 /* Menu.swift in Sources */,
 				247B3D5F2264AE72007E82FB /* Pizza.swift in Sources */,
 				24D5542D2267180700DF2B48 /* Command.swift in Sources */,
 				24BFCBBF22696EEE00A9336B /* HomeTV.swift in Sources */,
+				24A639272270474C000F4F77 /* AMenu.swift in Sources */,
 				245CEE20225DDD72000269AC /* Duck.swift in Sources */,
 				2439291E2265830300416355 /* TestViewController.swift in Sources */,
 				247B3D682264B146007E82FB /* PizzaStore2.swift in Sources */,
 				24D554392267221700DF2B48 /* RoomLight.swift in Sources */,
+				24A63929227047DE000F4F77 /* AIterator.swift in Sources */,
+				24A6392B227049CE000F4F77 /* Waiter.swift in Sources */,
 				243929292265A5A500416355 /* BJMaterialFactory.swift in Sources */,
+				24A63923227041C5000F4F77 /* MenuItem.swift in Sources */,
 				24BFCBBB22696D9300A9336B /* TurkeyAdapter.swift in Sources */,
 				24642E84226DD9CF0067D29E /* Tea.swift in Sources */,
 				245CEE5E225DE16F000269AC /* AirFly.swift in Sources */,
@@ -528,6 +559,7 @@
 				2439292D2265A68300416355 /* HZPizzaStore3.swift in Sources */,
 				2439292B2265A61800416355 /* HZPizzaStroe2.swift in Sources */,
 				243929232265A3F300416355 /* MaterialFactory.swift in Sources */,
+				24A6392122704112000F4F77 /* Iterator.swift in Sources */,
 				24F084FD22607B9A00F9F0BD /* Coffee.swift in Sources */,
 				24D5543122671BF200DF2B48 /* LightOnCommand.swift in Sources */,
 				24BFCBBD22696E9C00A9336B /* HomeMovieCol.swift in Sources */,
