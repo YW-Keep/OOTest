@@ -23,7 +23,7 @@ class Waiter: NSObject {
     func printMenuItem(_ iterator: Iterator) {
         while (iterator.haveNext()) {
             let item = iterator.next();
-            NSLog("%@,%@",item.name,item.price)
+            item.printInfo()
         }
     }
 }

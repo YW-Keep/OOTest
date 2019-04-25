@@ -1,27 +1,27 @@
 //
-//  Menu.swift
+//  MenuItemComponent.swift
 //  OOTest
 //
-//  Created by tang on 2019/4/24.
+//  Created by tang on 2019/4/25.
 //  Copyright © 2019 tang. All rights reserved.
 //
 
 import UIKit
 
-class MenuItem: NSObject {
+class MenuItemComponent: Component {
     let name: String
     let price: String
     init(_ name: String,_ price: String) {
         self.name = name
         self.price = price
     }
-    func getItemName() -> String {
+    override func getItemName() -> String {
         return self.name;
     }
-    func getItemPrice() -> String {
+    override func getItemPrice() -> String {
         return "¥" + self.price;
     }
-    func printInfo() {
+    override func printInfo() {
         NSLog("%@,%@",self.getItemName(),self.getItemPrice())
     }
 }

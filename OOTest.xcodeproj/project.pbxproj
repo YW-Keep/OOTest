@@ -10,6 +10,10 @@
 		2421B071225F1F090070C9D0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B070225F1F090070C9D0 /* Theme.swift */; };
 		2421B073225F2C740070C9D0 /* OneObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B072225F2C740070C9D0 /* OneObserver.swift */; };
 		2421B078225F357F0070C9D0 /* TwoObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2421B077225F357F0070C9D0 /* TwoObserver.swift */; };
+		242E7D2122719C2500EAED26 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E7D2022719C2500EAED26 /* Component.swift */; };
+		242E7D232271A36600EAED26 /* MenuItemComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E7D222271A36600EAED26 /* MenuItemComponent.swift */; };
+		242E7D252271A41900EAED26 /* MenuComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E7D242271A41900EAED26 /* MenuComponent.swift */; };
+		242E7D272271A50900EAED26 /* NewWaiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242E7D262271A50900EAED26 /* NewWaiter.swift */; };
 		2439291022657D2700416355 /* PizzaStore3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439290F22657D2700416355 /* PizzaStore3.swift */; };
 		2439291222657DB700416355 /* HZBeefPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439291122657DB700416355 /* HZBeefPizza.swift */; };
 		2439291422657DCD00416355 /* HZPorkPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2439291322657DCC00416355 /* HZPorkPizza.swift */; };
@@ -90,6 +94,10 @@
 		2421B070225F1F090070C9D0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		2421B072225F2C740070C9D0 /* OneObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneObserver.swift; sourceTree = "<group>"; };
 		2421B077225F357F0070C9D0 /* TwoObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoObserver.swift; sourceTree = "<group>"; };
+		242E7D2022719C2500EAED26 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		242E7D222271A36600EAED26 /* MenuItemComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemComponent.swift; sourceTree = "<group>"; };
+		242E7D242271A41900EAED26 /* MenuComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuComponent.swift; sourceTree = "<group>"; };
+		242E7D262271A50900EAED26 /* NewWaiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewWaiter.swift; sourceTree = "<group>"; };
 		2439290F22657D2700416355 /* PizzaStore3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaStore3.swift; sourceTree = "<group>"; };
 		2439291122657DB700416355 /* HZBeefPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZBeefPizza.swift; sourceTree = "<group>"; };
 		2439291322657DCC00416355 /* HZPorkPizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HZPorkPizza.swift; sourceTree = "<group>"; };
@@ -339,6 +347,10 @@
 				24A639262270474C000F4F77 /* AMenu.swift */,
 				24A63928227047DE000F4F77 /* AIterator.swift */,
 				24A6392A227049CE000F4F77 /* Waiter.swift */,
+				242E7D2022719C2500EAED26 /* Component.swift */,
+				242E7D222271A36600EAED26 /* MenuItemComponent.swift */,
+				242E7D242271A41900EAED26 /* MenuComponent.swift */,
+				242E7D262271A50900EAED26 /* NewWaiter.swift */,
 			);
 			path = "9.迭代器与组合模式";
 			sourceTree = "<group>";
@@ -516,6 +528,7 @@
 				2439291C22657EE400416355 /* BJPizzaStore.swift in Sources */,
 				243929212265A34400416355 /* Pizza2.swift in Sources */,
 				24642E86226DDA3E0067D29E /* Caffe.swift in Sources */,
+				242E7D232271A36600EAED26 /* MenuItemComponent.swift in Sources */,
 				24BFCBC122696F7400A9336B /* MilkAdd.swift in Sources */,
 				2421B071225F1F090070C9D0 /* Theme.swift in Sources */,
 				243929272265A57B00416355 /* HZMaterialFactory.swift in Sources */,
@@ -540,11 +553,14 @@
 				24A639272270474C000F4F77 /* AMenu.swift in Sources */,
 				245CEE20225DDD72000269AC /* Duck.swift in Sources */,
 				2439291E2265830300416355 /* TestViewController.swift in Sources */,
+				242E7D2122719C2500EAED26 /* Component.swift in Sources */,
 				247B3D682264B146007E82FB /* PizzaStore2.swift in Sources */,
 				24D554392267221700DF2B48 /* RoomLight.swift in Sources */,
+				242E7D272271A50900EAED26 /* NewWaiter.swift in Sources */,
 				24A63929227047DE000F4F77 /* AIterator.swift in Sources */,
 				24A6392B227049CE000F4F77 /* Waiter.swift in Sources */,
 				243929292265A5A500416355 /* BJMaterialFactory.swift in Sources */,
+				242E7D252271A41900EAED26 /* MenuComponent.swift in Sources */,
 				24A63923227041C5000F4F77 /* MenuItem.swift in Sources */,
 				24BFCBBB22696D9300A9336B /* TurkeyAdapter.swift in Sources */,
 				24642E84226DD9CF0067D29E /* Tea.swift in Sources */,

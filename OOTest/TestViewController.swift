@@ -88,6 +88,7 @@ class TestViewController: UIViewController {
         caffe.prepareRecipe()
         
         NSLog("迭代器与组合模式----------")
+        NSLog("迭代器模式")
         let menu1 = AMenu();
         menu1.addMenu(MenuItem("小鸡炖蘑菇","20"))
         menu1.addMenu(MenuItem("红烧肉","30"))
@@ -98,6 +99,19 @@ class TestViewController: UIViewController {
         menu2.addMenu(MenuItem("地三鲜","12"))
         let waiter = Waiter([menu1,menu2])
         waiter.printMenus()
+        NSLog("组合模式")
+        let menu3 = MenuComponent("午饭")
+        menu3.addMenu(MenuItemComponent("小鸡炖蘑菇","20"))
+        menu3.addMenu(MenuItemComponent("红烧肉","30"))
+        menu3.addMenu(MenuItemComponent("青菜蘑菇","8"))
+        let menu4 = MenuComponent("小吃甜点")
+        menu4.addMenu(MenuItemComponent("春卷","6"))
+        menu4.addMenu(MenuItemComponent("冰淇淋","8"))
+        menu4.addMenu(MenuItemComponent("千层","12"))
+        menu3.addMenu(menu4);
+        let waiter2 = NewWaiter(menu3)
+        waiter2.printInfo()
+        
     }
     
 
