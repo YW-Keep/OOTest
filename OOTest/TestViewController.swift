@@ -112,6 +112,12 @@ class TestViewController: UIViewController {
         let waiter2 = NewWaiter(menu3)
         waiter2.printInfo()
         
+        NSLog("状态模式----------")
+        let machine = CandyMachine(1);
+        machine.inputMoney()
+        machine.turnButton()
+        machine.inputMoney()
+        
     }
     
 
